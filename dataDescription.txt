@@ -1,0 +1,103 @@
+% Features
+sat_avg		SAT score average
+loan_ever	Share of students who received a federal loan while in school	
+pell_ever	Share of students who received a Pell Grant while in school
+age_entry	Average age of entry, via SSA data
+female		Share of female students, via SSA data
+married		Share of married students
+dependent	Share of dependent students
+veteran		Share of veteran students
+first_gen	Share of first-generation students
+faminc		Average family income
+md_faminc	Median family income
+faminc_ind	Average family income for independent students
+pct_white	Percent of the population from students' zip codes that is White, via Census data
+pct_black	Percent of the population from students' zip codes that is black, via Census data
+pct_asian	Percent of the population from students' zip codes that is Asian, via Census data
+pct_hispanic	Percent of the population from students' zip codes that is Hispanic, via Census data
+pct_ba	Percent of the population from students' zip codes with a bachelor's degree over the age 25,
+pct_grad_prof	Percent of the population from students' zip codes over 25 with a professional degree
+pct_born_us		Percent of the population from students' zip codes that was born in the US
+median_hh_inc	Median household income
+poverty_rate	Poverty rate, via Census data
+unemp_rate		Unemployment rate, via Census data
+adm_rate		admission rate of university
+PCIP 1	Agriculture, Agriculture Operations, And Related Sciences 
+PCIP 10 communications technologies
+PCIP 12 personal and culinary services
+PCIP 13 education
+PCIP 14 engineering
+PCIP 16 foreign languages
+PCIP 19 family and consumer sciences
+PCIP 22 Legal professions
+PCIP 23 English
+PCIP 24 Libertal Arts and Sciences
+PCIP 25 Library Science
+PCIP 27 Mathematics and Statistics
+PCIP 29 Technologies and applied science
+PCIP 38 philosophy and religous studies
+PCIP 39 theology
+PCIP 41 science technologies 
+PCIP 43 homeland security, law enforcement and etc
+PCIP 44 public adminstration and social service professions
+PCIP 45 SOCIAL SCIENCE
+PCIP 46 construction
+PCIP 48 precision production
+PCIP 51	health
+PCIP 52	bussiness
+PCIP 54 History
+ccbasic Institution type
+
+/*The encoding for ccbasic
+Encoding
+Master's Colleges and Universities (larger programs)	18
+Research Universities (very high research activity)	22
+Research Universities (high research activity)	21
+Baccalaureate Colleges--Arts & Sciences	14
+Baccalaureate Colleges--Diverse Fields	15
+Master's Colleges and Universities (medium programs)	19
+Master's Colleges and Universities (smaller programs)	20
+Special Focus Institutions--Schools of art	25
+Doctoral/Research Universities	17
+Associate's--Public 2-year colleges under 4-year universities	4
+Baccalaureate/Associate's Colleges	16
+Special Focus Institutions--Other health professions schools	23
+Special Focus Institutions--Theological seminaries	28
+Associate's--Private Not-for-profit	1
+Special Focus Institutions--Schools of business and management	26
+Associate's--Public 4-year Primarily Associate's	5
+Associate's--Public Rural-serving Medium	7
+Associate's--Public Urban-serving Single Campus	13
+Associate's--Public Rural-serving Small	8
+Special Focus Institutions--Schools of engineering	27
+Tribal Colleges	29
+Associate's--Private Not-for-profit 4-year Primarily Associate's	3
+Associate's--Public Rural-serving Large	6
+Associate's--Public Special Use	9
+Special Focus Institutions--Other technology-related schools	24
+Associate's--Public Urban-serving Multicampus	12
+Associate's--Public Suburban-serving Single Campus	11
+Associate's--Public Suburban-serving Multicampus	10
+*/
+
+% the labels that we want to predict
+	
+mn_earn_wne_p10	Mean earnings of students working and not enrolled 10 years after entry
+md_earn_wne_p10	Median earnings of students working and not enrolled 10 years after entry
+pct10_earn_wne_p10	10th percentile of earnings of students working and not enrolled 10 years after entry
+pct25_earn_wne_p10	25th percentile of earnings of students working and not enrolled 10 years after entry
+pct75_earn_wne_p10	75th percentile of earnings of students working and not enrolled 10 years after entry
+sd_earn_wne_p10	Standard deviation of earnings of students working and not enrolled 10 years after entry
+
+
+% for indexing later
+
+UNITID	University ID
+INSTNM	Institution Name 
+
+
+
+
+
+
+
